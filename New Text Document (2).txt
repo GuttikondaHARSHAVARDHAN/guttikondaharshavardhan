@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .container {
+  position: center;
+  text-align: center;
+  color: white;
+}
+
+.text-block {
+
+  position: absolute;
+ top: 20px;
+right:5px;
+left:5px;
+  background-color: pink;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="road.jpg" style="width:100%">
+ 
+<div class="text-block">
+<div class="centered"></div>
+<p>
+<b>
+1.Can I track live location?
+<b>
+A.No,we will update page later on.
+<b>
+2.I cannot open webpage?
+<b>
+A.Check the internet connection properly,and refresh  it.
+<b>
+3.At what time we should be there?
+<b>
+A.It's an exact time which was shown.In few cases it will be early so please be there at five minutes before. 
+ 
+
+  </div>
+</div>
+
+</body>
+</html> 
