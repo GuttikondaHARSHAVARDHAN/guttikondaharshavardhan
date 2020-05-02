@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .container {
+  position: center;
+  text-align: center;
+  color: white;
+}
+
+.text-block {
+
+  position: absolute;
+ top: 20px;
+right:5px;
+left:5px;
+font-size:30px;
+  background-color: pink;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="road.jpg" style="width:100%">
+ 
+<div class="text-block">
+<div class="centered"></div>
+<form action="BUS.php" method="get">
+  <label for="from">From:</label>
+  <input type="text" id="from" name="from"><br><br>
+  <label for="to">To:</label>
+  <input type="text" id="to" name="to"><br><br>
+  <input type="submit" value="Search">
+ <input type="button" value="Go back" onclick="history.back()">
+</form>
+</body>
+</html>
+
